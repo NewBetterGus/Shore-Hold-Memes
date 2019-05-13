@@ -1,7 +1,4 @@
 //////////////////HELP////////////////////////
-//proxy coord - shows your xyz coordinate in the chat. (auto save coord)
-//proxy tpx - Teleport to save coord.
-//proxy tp x y z - teleport on xyz
 //proxy shbam - Teleport to the BAM spawn!
 //proxy shp1 - Teleport to the left pyre!
 //proxy shp2 - Teleport to the right pyre!
@@ -138,59 +135,7 @@ if (filter == -1 || shift >= 0) {
         mod.command.message('Shift set to ' + shift + ' and time set to ' + secdef)
         }
     })
-    
-  mod.command.add('coord', () => {
-		mod.command.message(`<font color="#00ffff"><font color="#ffff00">ZONE:</font>${xyz[3]} <font color="#ffff00">X:</font>${xyz[0]} <font color="#ffff00">Y:</font>${xyz[1]} <font color="#ffff00">Z:</font>${xyz[2]}</font>`)
-		svx = xyz[0]
-		svy = xyz[1]
-		svz = xyz[2]
-	})
 
-  mod.command.add('tpx', () => {
-		if (svx == 0) {
-		mod.command.message(`<font color="#00ffff">Coord(X) is failed or null, please retry #coord command.</font>`);	
-		}else if(svy == 0) {
-		mod.command.message(`<font color="#00ffff">Coord(Y) is failed or null, please retry #coord command.</font>`);	
-		}else if(svz == 0) {
-		mod.command.message(`<font color="#00ffff">Coord(Z) is failed or null, please retry #coord command.</font>`);	
-		}else{
-		mod.toClient('S_INSTANT_MOVE', 1,{
-                    id: id,
-                    x: svx,
-                    y: svy,
-                    z: svz,
-                    w: xyz[5]})
-		mod.command.message(`<font color="#00ffff">Teleported to <font color="#ffff00">X:</font>${svx} <font color="#ffff00">Y:</font>${svy} <font color="#ffff00">Z:</font>${svz}</font>`);
-	}
-	})
-	
-		
-	mod.command.add('tp', (argx, argy, argz) => {
-   let arg1 = xyz[0]
-   let arg2 =	xyz[1]
-   let arg3 =	xyz[2]
-   
-	if (argx != 0) {
-    arg1 = parseFloat(argx);
-	}
-	
-	if (argy != 0) {
-    arg2 = parseFloat(argy);
-	}
-	
-  if (argz != 0) {
-    arg3 = parseFloat(argz);
-	}
-	
-		mod.toClient('S_INSTANT_MOVE', 1,{
-                    id: id,
-                    x: arg1,
-                    y: arg2,
-                    z: arg3,
-                    w: xyz[5]})
-		mod.command.message(`<font color="#00ffff">Teleported to <font color="#ffff00">X:</font>${arg1} <font color="#ffff00">Y:</font>${arg2} <font color="#ffff00">Z:</font>${arg3}</font>`);
-	})
-	
 	
 	// ###################### //
 	// ##### SHORE HOLD ##### //
