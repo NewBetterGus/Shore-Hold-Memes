@@ -2,7 +2,7 @@
 //proxy coord - shows your xyz coordinate in the chat. (auto save coord)
 //proxy tpx - Teleport to save coord.
 //proxy tp x y z - teleport on xyz
-//proxy shboss - Teleport to the boss spawn!
+//proxy shbam - Teleport to the BAM spawn!
 //proxy shp1 - Teleport to the left pyre!
 //proxy shp2 - Teleport to the right pyre!
 //proxy shp3 - Teleport to the center pyre!
@@ -196,7 +196,7 @@ if (filter == -1 || shift >= 0) {
 	// ##### SHORE HOLD ##### //
 	// ###################### //
 	
-		mod.command.add('shboss', () => {
+		mod.command.add('shbam', () => {
 		if (116 === xyz[3]) {
 		mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
@@ -204,7 +204,7 @@ if (filter == -1 || shift >= 0) {
                     y: 7572,
                     z: 3531,
                     w: xyz[5]})
-    mod.command.message('<font color="#ffff00">You are teleported to the boss!</font>');
+    mod.command.message('<font color="#ffff00">You are teleported to the BAM!</font>');
     }
    else{
     mod.command.message('<font color="#ffff00">Only Shore Hold!</font>');}
