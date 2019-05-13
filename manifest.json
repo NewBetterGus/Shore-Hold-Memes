@@ -1,0 +1,15 @@
+{
+  "files": {
+    "index.js": "...",
+    "README.md": "...",
+    "module.json": "..."
+  },
+  "defs": {
+    "S_INSTANT_MOVE": 1,
+    "S_LOGIN": 13,
+    "S_LOAD_TOPO": 1,
+    "C_PRESS_SKILL": 4,
+    "C_START_SKILL": 7,
+    "C_PLAYER_LOCATION": 1
+  }
+}
