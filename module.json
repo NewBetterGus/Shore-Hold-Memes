@@ -1,0 +1,13 @@
+{
+    "disableAutoUpdate": true,
+    "name": "Shore-Hold-Memes",
+    "author": "PinguinRei",
+    "description": "Teleport Module.",
+    "version": "1.0",
+    "options": {
+        "niceName": "SH",
+        "guiName": "SHMemes"
+    },
+    "servers": ["https://raw.githubusercontent.com/PinguinRei/Shore-Hold-Memes/master/"],
+    "supportUrl": "https://github.com/PinguinRei/Shore-Hold-Memes/issues"
+}
