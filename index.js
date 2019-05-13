@@ -2,8 +2,6 @@
 //proxy coord - shows your xyz coordinate in the chat. (auto save coord)
 //proxy tpx - Teleport to save coord.
 //proxy tp x y z - teleport on xyz
-//proxy shleft - Teleport to the left hide spawn!
-//proxy shright - Teleport to the right hide spawn!
 //proxy shboss - Teleport to the boss spawn!
 //proxy shp1 - Teleport to the left pyre!
 //proxy shp2 - Teleport to the right pyre!
@@ -197,34 +195,6 @@ if (filter == -1 || shift >= 0) {
 	// ###################### //
 	// ##### SHORE HOLD ##### //
 	// ###################### //
-	
-		mod.command.add('shleft', () => {
-		if (116 === xyz[3]) {
-		mod.toClient('S_INSTANT_MOVE', 1,{
-                    id: id,
-                    x: ---,
-                    y: ---,
-                    z: ---,
-                    w: xyz[5]})
-    mod.command.message('<font color="#ffff00">You are teleported to the left hide spawn!</font>');
-    }
-   else{
-    mod.command.message('<font color="#ffff00">Only Shore Hold!</font>');}
-	})
-	
-		mod.command.add('shright', () => {
-		if (116 === xyz[3]) {
-		mod.toClient('S_INSTANT_MOVE', 1,{
-                    id: id,
-                    x: ---,
-                    y: ---,
-                    z: ---,
-                    w: xyz[5]})
-    mod.command.message('<font color="#ffff00">You are teleported to the right hide spawn!</font>');
-    }
-   else{
-    mod.command.message('<font color="#ffff00">Only Shore Hold!</font>');}
-	})
 	
 		mod.command.add('shboss', () => {
 		if (116 === xyz[3]) {
