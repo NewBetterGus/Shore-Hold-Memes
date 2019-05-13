@@ -1,5 +1,6 @@
 # Shore-Hold-Memes
 ❗WARNING, READ BEFORE USE❗ 
+❗not working yet❗
   - The first version has global coordinate systems and is not tied to an arena. Using these commands on the world map will result in movement behind textures. Use only in this arena.
 
 ## Setup:
