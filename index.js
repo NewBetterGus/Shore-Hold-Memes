@@ -230,9 +230,9 @@ if (filter == -1 || shift >= 0) {
 		if (116 === xyz[3]) {
 		mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
-                    x: ---,
-                    y: ---,
-                    z: ---,
+                    x: 10422,
+                    y: 7572,
+                    z: 3531,
                     w: xyz[5]})
     mod.command.message('<font color="#ffff00">You are teleported to the boss!</font>');
     }
@@ -244,9 +244,9 @@ if (filter == -1 || shift >= 0) {
 		if (116 === xyz[3]) {
 		mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
-                    x: ---,
-                    y: ---,
-                    z: ---,
+                    x: 7284,
+                    y: 5555,
+                    z: 3140,
                     w: xyz[5]})
     mod.command.message('<font color="#ffff00">You are teleported to the left pyre!</font>');
     }
@@ -258,9 +258,9 @@ if (filter == -1 || shift >= 0) {
     if (116 === xyz[3]) {
     mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
-                    x: ---,
-                    y: ---,
-                    z: ---,
+                    x: 7345,
+                    y: 9717,
+                    z: 3134,
                     w: xyz[5]})
     mod.command.message('<font color="#ffff00">You are teleported to the right pyre!</font>');
     }
@@ -272,9 +272,9 @@ if (filter == -1 || shift >= 0) {
     if (116 === xyz[3]) {
     mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
-                    x: ---,
-                    y: ---,
-                    z: ---,
+                    x: 4560,
+                    y: 7797,
+                    z: 2910,
                     w: xyz[5]})
     mod.command.message('<font color="#ffff00">You are teleported to the center pyre!</font>');
     }
