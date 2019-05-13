@@ -14,7 +14,7 @@
 //proxy coord - shows your xyz coordinate in the chat. (auto save coord)
 //proxy tpx - Teleport to save coord.
 //proxy tp x y z - teleport on xyz
-//proxy shboss - Teleport to the boss spawn!
+//proxy shboss - Teleport to the BAM spawn!
 //proxy shp1 - Teleport to the left pyre!
 //proxy shp2 - Teleport to the right pyre!
 //proxy shp3 - Teleport to the center pyre!
