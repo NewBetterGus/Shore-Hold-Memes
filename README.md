@@ -17,7 +17,7 @@
 //proxy shp3 - Teleport to the center pyre!
 ```
 
-## What to add in the future:
+## TO DO:
 - [ ] auto-update
 - [x] binding to the arena
 - [ ] moving underground... you're a bad boy ;) (probably)
