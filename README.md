@@ -2,6 +2,9 @@
 ❗WARNING, READ BEFORE USE❗ 
 ❗not working yet❗
 
+## Сompatibility
+- This mod is not compatible [RTport](https://github.com/PinguinRei/RTPort) due to the same code, install separately. Install separately and not use together.
+
 ## Setup:
 - Copy/paste all .def files from the [protocol folder](https://github.com/PinguinRei/Shore-Hold-Memes/tree/master/defs) to `<path to proxy>\node_modules\tera-data\protocol\`.
 
