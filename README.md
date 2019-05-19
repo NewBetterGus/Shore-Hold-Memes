@@ -11,13 +11,18 @@
 ## Commands
 **Need to be used in _Proxy Channel_ (/proxy) or (/8)**
 ```
-//proxy shbam - Teleport to the BAM spawn!
+//proxy spawnl - Teleport to the left spawn!
+//proxy spawnr - Teleport to the right spawn!
+
 //proxy shp1 - Teleport to the left pyre!
 //proxy shp2 - Teleport to the right pyre!
 //proxy shp3 - Teleport to the center pyre!
+
+//proxy shbam - Teleport to the BAM spawn!
 ```
 
 ## TO DO:
-- [ ] auto-update
-- [x] binding to the arena
-- [ ] moving underground... you're a bad boy ;) (probably)
+- ~~[ ] auto-update~~
+- ~~[x] binding to the arena~~
+- ~~[ ] moving underground... you're a bad boy ;) (probably)~~
+- [ ] compatibility with [RTport](https://github.com/PinguinRei/RTPort)
