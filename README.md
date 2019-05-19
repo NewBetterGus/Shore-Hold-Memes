@@ -26,3 +26,4 @@
 - ~~[x] binding to the arena~~
 - ~~[ ] moving underground... you're a bad boy ;) (probably)~~
 - [ ] compatibility with [RTport](https://github.com/PinguinRei/RTPort)
+- [ ] Coordinates of spawn, and not kicked from the arena
