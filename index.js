@@ -205,9 +205,9 @@ if (filter == -1 || shift >= 0) {
     if (116 === xyz[3]) {
     mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
-                    x: ...,
-                    y: ...,
-                    z: ...,
+                    x: 000,
+                    y: 000,
+                    z: 000,
                     w: xyz[5]})
     mod.command.message('<font color="#ffff00">You are teleported to the spawn!</font>');
     }
@@ -219,9 +219,9 @@ if (filter == -1 || shift >= 0) {
     if (116 === xyz[3]) {
     mod.toClient('S_INSTANT_MOVE', 1,{
                     id: id,
-                    x: ...,
-                    y: ...,
-                    z: ...,
+                    x: 000,
+                    y: 000,
+                    z: 000,
                     w: xyz[5]})
     mod.command.message('<font color="#ffff00">You are teleported to the spawn!</font>');
     }
